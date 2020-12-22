@@ -1,1 +1,2 @@
-# mei sha ke kan de
+# This is my personal website. 
+Currently it is still under construction.
