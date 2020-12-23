@@ -15,18 +15,17 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 30px;
+  background-color: pink;
+  padding: 5px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: black;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 20%;
   background: #ccc;
   padding: 20px;
 }
@@ -40,9 +39,9 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  
 }
 
 /* Clear floats after the columns */
@@ -54,10 +53,10 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: pink;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: blue;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -66,6 +65,25 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 </style>
 </head>
@@ -78,32 +96,61 @@ This is a comment. Comments are not displayed in the browser-->
 <!--<p>If target="_blank", the link will open in a new browser window or tab.</p>-->
 
 <header>
-  <h2>Zhengqi Wang</h2>
-  <h2>(Jackie Wang)</h2>
-  <p>Ph. D. Candidate of Lakehead University</p>
-	<picture>
-	<img src="head.jpg" alt="none" style="width:auto;">
-	</picture>
+  <h2>Zhengqi Wang (Jackie)</h2>
+  
 </header>
 
 <section>
   <nav>
-    <ul>
-      <li> My friend Peizhi (Matthew) Yan </li>
-	  <a href="https://peizhiyan.github.io/" target="_blank">Visit Peizhi Yan's page!</a>
-      <li><a href="#">Thunder Bay</a></li>
-      <li><a href="#">Canada</a></li>
-    </ul>
+  <picture>
+	<img src="head.jpg" alt="none" width="200" style="display:block; margin-left: auto; margin-right: auto;">
+  </picture>  
+  <p>Zhengqi Wang (Chinese: 王争琦)</p>
+  <p>Ph. D. Candidate of Lakehead University</p>
+  <p>M. Sc. Lakehead University</p>
+  <p>B. Eng. Tianjin University</p>
+  <p>Before undergraduate educations:</p>
+  <p>Yaohua High School (senior)</p>
+  <p>Haihe High School (junior)</p>
+  <p>Taiwan Rd. Primary (elementary) School</p>
+  <p>Kindergarten of Civil Aviation Coummunity in Tianjin Binhai Int. Airport (ICAO code: ZBTJ)</p>
   </nav>
   
   <article>
-    <h1>Thunder Bay</h1>
-    <p>Thunder Bay is a city on northwestern Ontario in Canada. </p>
+    <p>This is the personal website of Zhengqi Wang.</p>
+    <h1>Research interests</h1>
+    <p>Adaptive control systems, Robotics, Autopilot systems, Embedded systems</p>
+    <h1>Professional skills</h1>
+    <p>Embedded design: Arduino, STM32, AVR, 8051; Programming language: C/C++/C#/VB/Matlab; 3D printer; CNC prototyping; PCB design: Altium Designer; Soldering</p>
+    <h1>Thunder Bay: My current living place</h1>
+    <p>Thunder Bay is a city located at northwestern Ontario in Canada. </p>
+	<h1>My hobbies</h1>
+	<p>Aeromodelling, Microsoft Flight Simulator, Skiing, Swimming </p>
+	<h1>Memberships</h1>
+	<p>IEEE Graduate Student Member </p>
+	<p>Model Aeronautics Association of Canada (MAAC) Member </p>
+	<h1>My basic timeline</h1>
+	<p>1994: Borned in Benxi, Liaoning, China</p>
+	<p>1994-1996: Benxi, Liaoning, China</p>
+	<p>1996-2016: Tianjin, China</p>
+	<p>2016-now: Thunder Bay, Ontario, Canada</p>
+	<h1> My friends (Not ranked with sequence)</h1>
+	  <p>Peizhi (Matthew) Yan: <a href="https://peizhiyan.github.io/" target="_blank">Visit Peizhi Yan's page!</a> </p>
+	  <p>Jiajun (Tony) Wang and Hongxuan (Yulia) Zhou</p>
+	  <p>Zijian Wang</p>
+	  <p>Mai Zhou: AME</p>
+	  <p>Tianqi (Ricky) Xi</p>
+	  <p>Ning (Claire) Che</p>
+	  <p>Renjie (Ranger) Yin</p>
+	  <p>Yansong Shi</p>
+	  <p><a href="friends">View entire list of my friends</a></p>
+      <li><a href="#">Thunder Bay</a></li>
+      <li><a href="#">Canada</a></li>
   </article>
 </section>
 
 <footer>
-  <p>facebook linkedin wechat</p>
+  <p>Facebook Linkedin WeChat</p>
 </footer>
 
 </body>
