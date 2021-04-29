@@ -1,11 +1,14 @@
 <html>
 <body>
-Welcome
+<p> Welcome </p>
+<?php echo(<p>hello</p>); ?>
+
 <?php
 if ( ! empty($_POST['swptext'])){
     $matlabtext = $_POST['swptext']);
-}
-echo ($matlabtext);
-?>
+}?>
+<?php echo ($matlabtext);?>
+
+
 </body>
 </html>
