@@ -1,14 +1,8 @@
 <html>
 <body>
 <p> Welcome </p>
-<?php echo(<p>hello</p>); ?>
 
-<?php
-if ( ! empty($_POST['swptext'])){
-    $matlabtext = $_POST['swptext']);
-}?>
-<?php echo ($matlabtext);?>
-
+Your SWP text is: <?php echo $_GET["swptext"]; ?> <br>
 
 </body>
 </html>
